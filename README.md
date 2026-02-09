@@ -1,10 +1,12 @@
 # Humanoid Robot Teleoperation with Augmented Reality Feedback Using Snap Spectacles
 
+![Teleoperation](Pepper Teleoperation Demo.png)
+
 This project allows teleoperation of a SoftBank Robotics Pepper robot (real and in simulation) using Snap Spectacles '24 AR glasses.
 
 For details refer to TODO.
 
-A video of the system in action from the user's augmented perspective is available at TODO.
+A video of the system in action from the user's augmented perspective is available at [title](link).
 
 ## Installation using Conda:
 ```
