@@ -6,7 +6,7 @@ This project allows teleoperation of a SoftBank Robotics Pepper robot (real and 
 
 For details refer to TODO.
 
-A video of the system in action from the user's augmented perspective is available at [title](link1).
+A video of the system in action from the user's augmented perspective is available at [title](link2).
 
 ## Installation using Conda:
 ```
