@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/6edb195b-21ef-441f-b14c-187e9677d8dc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0d1a23c9-cd5e-41ec-9a8e-6a6acd31daf8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0d1a23c9-cd5e-41ec-9a8e-6a6acd31daf8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> feaccd1c-434e-45e4-8fc6-df27d8807f6d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/feaccd1c-434e-45e4-8fc6-df27d8807f6d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 385e011e-045b-46d2-b589-57514a23b0e4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    left_hand_tracker: false
+    right_hand_tracker: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      left_hand_tracker: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      right_hand_tracker: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Camera camera
+    - // @input AssignableType left_hand_tracker
+    - // @input AssignableType_1 right_hand_tracker

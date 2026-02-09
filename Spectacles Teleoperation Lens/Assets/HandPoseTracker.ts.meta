@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/ac62a1a2-306e-4da2-9f5b-41dd9759cf36>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7ad08e72-896e-4190-8a83-296f79c32ce8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7ad08e72-896e-4190-8a83-296f79c32ce8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3837505f-5d71-464a-a484-2327dd2954f2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3837505f-5d71-464a-a484-2327dd2954f2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: eea85c6e-cf9b-4b35-88ea-f6b50c7d3509
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableKeypointsVisuals: false
+    enableUserHandVisuals: false
+    fingerKeypointPrefab: false
+    handType: false
+    robotHandPrefab: false
+    userHandPrefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handType: ""
+      fingerKeypointPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      robotHandPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      userHandPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      enableUserHandVisuals: false
+      enableKeypointsVisuals: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input string handType
+    - // @input Asset.ObjectPrefab fingerKeypointPrefab
+    - // @input Asset.ObjectPrefab robotHandPrefab
+    - // @input Asset.ObjectPrefab userHandPrefab
+    - // @input bool enableUserHandVisuals
+    - // @input bool enableKeypointsVisuals

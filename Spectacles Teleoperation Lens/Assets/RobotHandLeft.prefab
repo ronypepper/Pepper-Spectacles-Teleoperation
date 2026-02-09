@@ -1,0 +1,58 @@
+- !<ObjectPrefab/36c464f1-986b-402b-b712-70055ab04392>
+  PackagePath: ""
+  objects:
+    - !<own> 3b4daaee-e51a-44a8-8f9c-8e95c43df316
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/099d2488-dcf0-44b3-8b24-6062bbba2878>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 980ae393-0f0e-4b5b-b704-d2a409a49ad9
+  Mesh: !<reference> a46c7bf7-85ad-42c1-a389-bcdbe17a135f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3b4daaee-e51a-44a8-8f9c-8e95c43df316>
+  PrefabRemaps:
+    - 099d2488-dcf0-44b3-8b24-6062bbba2878: 099d2488-dcf0-44b3-74db-9f9d4445d787
+    - 3b4daaee-e51a-44a8-8f9c-8e95c43df316: 3b4daaee-e51a-44a8-7063-716a3bc20ce9
+    - 6d375a2f-dd55-48c1-b0aa-d4eec590fe20: 6d375a2f-dd55-48c1-4f55-2b113a6f01df
+  Name: RobotHandLeft
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6d375a2f-dd55-48c1-b0aa-d4eec590fe20
+  Components:
+    []
+- !<SceneObject/6d375a2f-dd55-48c1-b0aa-d4eec590fe20>
+  PrefabRemaps:
+    []
+  Name: RobotHandLeftVisual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.463300, y: 0.000000, z: 5.517200}
+    Rotation: {x: 0.000000, y: 90.000000, z: 180.000000}
+    Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 099d2488-dcf0-44b3-8b24-6062bbba2878

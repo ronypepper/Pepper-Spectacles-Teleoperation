@@ -1,0 +1,15 @@
+name: pepper_spectacles_teleoperation
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - websockets
+  - numpy
+  - scipy
+  - conda-forge::pybullet
+  - pygame
+  - pip
+  - pip:
+    - qibullet
+    - qi
+    - OneEuroFilter

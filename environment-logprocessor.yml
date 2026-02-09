@@ -1,0 +1,8 @@
+name: plotting_env
+channels:
+  - defaults
+dependencies:
+  - python=3.14.2
+  - matplotlib
+  - scipy
+  - scienceplots

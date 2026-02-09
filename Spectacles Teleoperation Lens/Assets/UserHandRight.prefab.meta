@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/30206bf2-2872-48d4-9624-352ea482b0d8>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ea98c4d1-952b-41b2-ac10-1351c86128d6
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ea98c4d1-952b-41b2-ac10-1351c86128d6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> e6c49590-6da4-4bf2-ac20-a9de89af20b8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/551686b1-4e4a-444e-7ca1-94446c1eea0f>
+  PrefabRemaps:
+    []
+  Name: UserHandRightVisual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.463338, y: 0.000000, z: 5.517174}
+    Rotation: {x: 0.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8c138a7f-f4b6-45f3-5a7b-e6811528756a
+- !<RenderMeshVisual/8c138a7f-f4b6-45f3-5a7b-e6811528756a>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c1a3ab07-4530-4ffb-ad1d-661b1554fad8
+  Mesh: !<reference> b65568f8-3141-4fc6-b034-96009f5bfd8f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b2d72dd8-407f-4cc1-708b-0f5bf671d4bf>
+  PrefabRemaps:
+    []
+  Name: UserHandRight
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 551686b1-4e4a-444e-7ca1-94446c1eea0f
+  Components:
+    []
+- !<ObjectPrefabAssetData/e6c49590-6da4-4bf2-ac20-a9de89af20b8>
+  Prototype: !<ObjectOwner/6b4077ec-e0d1-4e14-be34-436d10c1f197>
+    PackagePath: ""
+    objects:
+      - !<own> b2d72dd8-407f-4cc1-708b-0f5bf671d4bf

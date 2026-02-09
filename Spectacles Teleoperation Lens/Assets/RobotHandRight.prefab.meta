@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/72156ecd-66f3-4ce1-a90a-154be58867f8>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 6cae04bc-b637-4511-a839-3f03a57dde83
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 6cae04bc-b637-4511-a839-3f03a57dde83
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> fc4ec392-252b-44ec-acb6-cdd85331cf83
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/224a8744-a0b5-4d88-4b42-a08478817b4e>
+  PrefabRemaps:
+    []
+  Name: RobotHandRight
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6b5ea9b2-b05c-44a6-45d0-d6d575114141
+  Components:
+    []
+- !<RenderMeshVisual/2407c4b8-0789-49d8-7214-5fac2ae10070>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 980ae393-0f0e-4b5b-b704-d2a409a49ad9
+  Mesh: !<reference> b65568f8-3141-4fc6-b034-96009f5bfd8f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6b5ea9b2-b05c-44a6-45d0-d6d575114141>
+  PrefabRemaps:
+    []
+  Name: RobotHandRightVisual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.463338, y: 0.000000, z: 5.517174}
+    Rotation: {x: 0.000000, y: -90.000000, z: 0.000000}
+    Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2407c4b8-0789-49d8-7214-5fac2ae10070
+- !<ObjectPrefabAssetData/fc4ec392-252b-44ec-acb6-cdd85331cf83>
+  Prototype: !<ObjectOwner/616c9872-9506-440a-8e93-7670d3a16188>
+    PackagePath: ""
+    objects:
+      - !<own> 224a8744-a0b5-4d88-4b42-a08478817b4e

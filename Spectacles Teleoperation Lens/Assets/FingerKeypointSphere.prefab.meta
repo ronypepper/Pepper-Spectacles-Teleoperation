@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/56d68ab8-5e74-4896-bc2a-a956a56a1a6b>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 6109eb8b-a82b-43f5-ac79-f38d3a79357f
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 6109eb8b-a82b-43f5-ac79-f38d3a79357f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> f5ef1dd9-2ab1-4885-83ca-0089f9e6cadc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/ad8797df-dc6a-4cf8-7e28-4531e70d3b28>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fc6f240d-cac6-4e70-8f2c-93d738f5fbf5
+  Mesh: !<reference> 2e5e428e-9a20-4c3f-ad4a-4451f07df611
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bd3e291d-c316-4346-73c5-7e4dc34193ce>
+  PrefabRemaps:
+    []
+  Name: FingerKeypointSphere
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.700000, y: 0.700000, z: 0.700000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ad8797df-dc6a-4cf8-7e28-4531e70d3b28
+- !<ObjectPrefabAssetData/f5ef1dd9-2ab1-4885-83ca-0089f9e6cadc>
+  Prototype: !<ObjectOwner/344e198c-05e6-43ce-b534-3c04b0162bac>
+    PackagePath: ""
+    objects:
+      - !<own> bd3e291d-c316-4346-73c5-7e4dc34193ce
